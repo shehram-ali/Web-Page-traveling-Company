@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    margin-left: 0;
+}
+
+
+.header{
+    background-image:url("papers.co-na26-nature-mountain-green-blue-27-wallpaper.jpg") ;
+    width: 100%;
+    height: 750px;
+    z-index: 7;
+   
+
+}
+.toppage{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    overflow: visible;
+    position: relative;
+    
+
+}
+.butn{
+    padding: 10px;
+    background-color: transparent;
+    font-family: fantasy;
+    border: none;
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.butn:hover{
+    color: rgb(166, 236, 236);
+    font-size: 30px;
+    cursor: pointer;
+}
+.butn:active{
+    
+    background-color: #737673;
+    box-shadow: 0 2px #1f1e1e;
+    transform: translateY(2px);
+}
+.dropdown{
+ 
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+
+}
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+.div1 {
+    width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  
+}
+
+.center{
+
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.heading{
+    color: aliceblue;
+    font-size: 40px;
+    align-self: center;
+
+}
+.line{
+    color: aliceblue;
+    font-size: 20px;
+    align-self: center;
+   
+}
+.visitbutn{
+    background-color: transparent;
+    color: aliceblue;
+    padding: 15px 40px 15px 40px;
+    align-items: center;
+    border-color: white;
+    font-size: 30px;
+    cursor: pointer;
+   
+}
+.divcenter{
+    align-self: center;
+    padding: 50px;
+}
+   
+.div2{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 800px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 6;
+    
+}
+.pic2{
+
+    padding: 30px;
+    
+}
+
+.content{
+    align-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+
+    color: #737673;
+    font-size: 18px;
+    font-weight: 200;
+}
+.black{
+    color: #1f1e1e;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content1{
+    text-align:center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    padding: 30px;
+    color: #737673;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: rgb(233, 240, 240);
+    height: 1000px;
+    position: relative;
+    z-index: 5;
+}
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: 95%;
+}
+.piccenter{
+    align-self: center;
+    cursor: pointer;
+}
+.head{
+    color: #1f1e1e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+}
+.div4{
+    text-align:center;
+    
+    color: #737673;
+    font-size: 20px;
+    font-weight: 200;
+    
+    height :400px;
+    position: relative;
+    z-index: 4;
+}
+.responsive-diagonal {
+    width: 100%;
+    height: 700px; /* Fixed height to match the image */
+    background: linear-gradient(7deg, #65c0ba 50%, white 50%);
+     /* Cyan at the bottom, white at the top */
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px; /* Ensures no overflow of the image */
+}
+
+.responsive-diagonal img {
+    width: 85%; /* Maintain aspect ratio */
+    height: 100%; /* Set the image height to fill the container */
+    max-width: 100%; /* Ensure the image does not overflow the container */
+    padding: 20px; /* Space around the image, adjust as needed */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image */
+    z-index: 3; /* Ensure the image is above the background */
+}
+.content2{
+    text-align:center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    padding: 40px;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 200;
+    background-color:#65c0ba ;
+    height: 1100px;
+    position: relative;
+    z-index: 2;
+}
+.black1{
+    color: #1f1e1e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+.center2{
+
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: aliceblue;
+}
+.padding{
+    padding: 10px;
+    background-color: #65c0ba;
+}
+.black3{
+    color: #1f1e1e;
+    font-family: "Abril Fatface", times, serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+.black3:hover{
+    color: #65c0ba;
+}
+.date{
+    align-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: silver;
+    font-size: 20px;
+    font-weight: 200;
+}
+.reviewsection{
+    text-align:center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    padding: 40px;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 200;
+    background-color:aliceblue ;
+    height: 700px;
+    position: relative;
+    
+    z-index: 1;
+}
+.reviews{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 0;
+    padding: 20px;
+}
+.sinreview{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    z-index: -1;
+    text-align: left;
+}
+.imgreview{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.reviewcontent{
+    
+    font-family: "Mukta Mahee", arial, sans-serif;
+
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+}
+.contactsection{
+    
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: -2;
+    padding: 20px;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+}
+.contcontent{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    z-index: -3;
+    text-align: left;
+    color: aliceblue;
+
+
+}
+.detailss {
+    color: grey;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.detailss:hover {
+    color: rgb(83, 159, 175);
+}
+
+.ownersection{
+    
+    
+    position: relative;
+    z-index: -4;
+    padding: 20px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
