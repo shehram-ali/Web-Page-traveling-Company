@@ -17,7 +17,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     overflow: visible;
     position: relative;
     
@@ -69,7 +68,11 @@ body{
   transition: 0.4s;
   
 }
-
+.imgsheh{
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+}
 .center{
 
     text-align: center;
@@ -161,7 +164,7 @@ body{
 .head{
     color: #1f1e1e;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-size: 65px;
     text-align: center;
 }
 .div4{
@@ -299,9 +302,9 @@ body{
     z-index: -2;
     padding: 20px;
     background-color: black;
-    width: 100%;
+    width: 99%;
     height: 400px;
-    padding: 30px;
+    
 }
 .contcontent{
     width: 20%;
@@ -333,7 +336,173 @@ body{
     z-index: -4;
     padding: 20px;
     background-color: black;
-    width: 100%;
+    width: 99%;
     height: 100px;
-    padding: 30px;
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+    .header {
+        height: auto;
+    }
+    .toppage {
+        justify-content: space-between;
+        width: 98%;
+
+    }
+    .butn {
+        font-size: 24px;
+    }
+    .content1, .content2 {
+        height: auto;
+    }
+    .content{
+        
+        font-size: 14px;
+        font-weight: 100;
+        
+
+    }
+    .div2{
+        height: 900px;
+        flex-direction: column;
+        padding: 2px;
+    }
+    .div4{
+        height: 650px;
+        
+    }
+    .head{
+        font-size: 50px;
+    }
+    .imgsheh{
+        width: 250px;
+        height: 350px;
+        padding: 10px;
+        
+    }
+    .flexwrap {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .piccenter {
+        width: 100px;
+        height: 100px;
+    }
+    .responsive-diagonal{
+        width:auto;
+    }
+    .detailss {
+        font-size: 16px;
+        
+    }
+    .reviewsection {
+        height: auto;
+    }
+    .reviewsection .reviews {
+        flex-direction: column;
+    }
+    .contactsection{
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+        gap: 10px;
+        height: 700px;
+        width: auto;
+    }
+    .ownersection{
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body{
+        margin-right:0;
+    }
+    .header {
+        height: 600px;
+    }
+    .toppage {
+        
+        width: 98%;
+    }
+    .div2{
+        width: auto;
+        height: 600px;
+    }
+    .imgsheh{
+        width: 250px;
+        height: 350px;
+        padding: 60px;
+        
+    }
+    .content{
+        
+        font-size: 14px;
+        font-weight: 100;
+        
+
+    }
+    .responsive-diagonal{
+        width:auto;
+    }
+    .butn {
+        font-size: 26px;
+    }
+    .content1, .content2 {
+        height: auto;
+    }
+    .flexwrap {
+        flex-wrap: wrap;
+        width: 98%;
+        justify-content: center;
+        padding: 2px;
+    }
+    .center2{
+        margin-top: 20px;
+    }
+    .piccenter {
+        width: 120px;
+        height: 120px;
+    }
+    .detailss {
+        font-size: 18px;
+    }
+    .contactsection{
+        width: auto;
+    }
+    .ownersection{
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .header {
+        height: 750px;
+    }
+
+    .butn {
+        font-size: 30px;
+    }
+    .responsive-diagonal{
+        width: auto;
+    }
+    .content1, .content2 {
+        height: 1100px;
+    }
+    .flexwrap {
+        justify-content: center;
+    }
+    .center2{
+        margin-top: 20px;
+    }
+    .piccenter {
+        width: 70px;
+        height: 70px;
+    }
+    .detailss {
+        font-size: 20px;
+    }
 }
